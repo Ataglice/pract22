@@ -1,0 +1,21 @@
+header {
+    display: flex;
+    padding: 1rem;
+}
+
+header .menu {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.photos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 1rem;
+}
+
+.photos img {
+    max-height: 100%;
+    max-width: 100%;
+
+}
